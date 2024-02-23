@@ -1,0 +1,26 @@
+<!--
+############### Events #################
+=> HTML events are "things" that happen to HTML elements.
+=> When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+=> An HTML event can be something the browser does, or something a user does.
+=> there are many events handler attributes like onclick, onmouseover, onmouseout, onchange, onblur, onfocus etc.
+example: at line 12
+
+=> when an event is fired, then conresponding events javascript code will be executed. at line 18 and 21.
+
+-->
+<html>
+  <body>
+    <p id="time"></p>
+    <button onclick="document.getElementById('time').innerHTML=Date()">
+      current time is?
+    </button>
+    <button id="newTime" onclick="mytime()">replace with current time</button>
+
+    <script>
+      function mytime() {
+        document.getElementById("newTime").innerHTML = Date();
+      }
+    </script>
+  </body>
+</html>
