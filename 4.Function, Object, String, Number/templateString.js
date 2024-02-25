@@ -20,5 +20,3 @@ console.log(`${name1} love ${name2}`);
 const num1 = 5;
 const num2 = 10;
 console.log(`sumation: ${num1 + num2}`);
-
-
